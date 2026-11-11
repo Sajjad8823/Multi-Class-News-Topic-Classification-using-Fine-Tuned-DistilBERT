@@ -1,1 +1,2 @@
 # Multi-Class-News-Topic-Classification-using-Fine-Tuned-DistilBERT
+Engineered an end-to-end NLP classification system by fine-tuning a pre-trained DistilBERT transformer (distilbert-base-uncased) in PyTorch on the AG News dataset comprising 120,000 training articles across four distinct categories, attaining 94.68% test accuracy and a 0.95 macro F1-score. The workflow includes stratified dataset splitting, subword tokenization, AdamW optimization, and linear learning rate warmup scheduling executed on GPU hardware.
